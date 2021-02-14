@@ -1939,6 +1939,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.system", "windows.s
 		generation\winrt\windows.system\winrt-windows.system.h = generation\winrt\windows.system\winrt-windows.system.h
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.ui.input", "windows.ui.input", "{B6CCD5C1-481E-4A9E-BC3F-0D3288B4D1B2}"
+	ProjectSection(SolutionItems) = preProject
+		generation\winrt\windows.ui.input\generate.rsp = generation\winrt\windows.ui.input\generate.rsp
+		generation\winrt\windows.ui.input\header.txt = generation\winrt\windows.ui.input\header.txt
+		generation\winrt\windows.ui.input\winrt-windows.ui.input.h = generation\winrt\windows.ui.input\winrt-windows.ui.input.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2244,6 +2251,7 @@ Global
 		{7E1E188D-81DA-4482-A192-F66961BCCB87} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{AE4AD406-F9B4-4740-97CB-D5CEAAB720DB} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{018F5F7B-5FC5-45AB-A0DD-258E7880B66A} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
+		{B6CCD5C1-481E-4A9E-BC3F-0D3288B4D1B2} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE36DF8-2D9C-4F20-8787-45DC74B57461}
