@@ -1953,6 +1953,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.ui.core", "windows.
 		generation\winrt\windows.ui.core\winrt-windows.ui.core.h = generation\winrt\windows.ui.core\winrt-windows.ui.core.h
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows.ApplicationModel.core", "Windows.ApplicationModel.core", "{837DE6F2-51E0-460A-8692-9CC0845DD280}"
+	ProjectSection(SolutionItems) = preProject
+		generation\winrt\Windows.ApplicationModel.core\generate.rsp = generation\winrt\Windows.ApplicationModel.core\generate.rsp
+		generation\winrt\Windows.ApplicationModel.core\header.txt = generation\winrt\Windows.ApplicationModel.core\header.txt
+		generation\winrt\Windows.ApplicationModel.core\winrt-Windows.ApplicationModel.core.h = generation\winrt\Windows.ApplicationModel.core\winrt-Windows.ApplicationModel.core.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2260,6 +2267,7 @@ Global
 		{018F5F7B-5FC5-45AB-A0DD-258E7880B66A} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{B6CCD5C1-481E-4A9E-BC3F-0D3288B4D1B2} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{3EB6A3F2-4F12-41C6-AF82-AB9EF51CB31C} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
+		{837DE6F2-51E0-460A-8692-9CC0845DD280} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE36DF8-2D9C-4F20-8787-45DC74B57461}
