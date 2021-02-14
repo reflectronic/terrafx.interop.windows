@@ -1883,6 +1883,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.devices.haptics", "
 		generation\winrt\windows.devices.haptics\winrt-windows.devices.haptics.h = generation\winrt\windows.devices.haptics\winrt-windows.devices.haptics.h
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.devices.input", "windows.devices.input", "{98A2C120-DD4D-4C55-AD52-7BD722174B82}"
+	ProjectSection(SolutionItems) = preProject
+		generation\winrt\windows.devices.input\generate.rsp = generation\winrt\windows.devices.input\generate.rsp
+		generation\winrt\windows.devices.input\header.txt = generation\winrt\windows.devices.input\header.txt
+		generation\winrt\windows.devices.input\winrt-windows.devices.input.h = generation\winrt\windows.devices.input\winrt-windows.devices.input.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2180,6 +2187,7 @@ Global
 		{CF2720CE-C6E7-419E-838E-093B7886BF66} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{B96D82D3-EEB6-45F3-A8B3-BC032C186023} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{E0B73045-C890-4E67-9A54-15DCBABF6916} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
+		{98A2C120-DD4D-4C55-AD52-7BD722174B82} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE36DF8-2D9C-4F20-8787-45DC74B57461}
