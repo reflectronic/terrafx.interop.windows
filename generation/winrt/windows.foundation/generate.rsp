@@ -1,5 +1,7 @@
 @../../settings.rsp
 @../../remap.rsp
+--define-macro
+DISABLE_NS_PREFIX_CHECKS
 --exclude
 ABI.Windows.Foundation.Collections.IIterable<?>
 ABI.Windows.Foundation.Collections.IIterator<?>
@@ -34,6 +36,8 @@ IID_IUriRuntimeClassWithAbsoluteCanonicalUri
 IID_IWwwFormUrlDecoderEntry
 IID_IWwwFormUrlDecoderRuntimeClass
 IID_IWwwFormUrlDecoderRuntimeClassFactory
+WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION
+WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION
 __FIIterable_1_Windows__CFoundation__CIWwwFormUrlDecoderEntry_t
 __FIIterable_1___FIKeyValuePair_2_HSTRING_HSTRING_t
 __FIIterable_1___FIKeyValuePair_2_HSTRING_IInspectable_t

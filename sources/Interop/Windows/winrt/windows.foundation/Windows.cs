@@ -99,15 +99,6 @@ namespace TerraFX.Interop
         [NativeTypeName("const WCHAR [42]")]
         public const string RuntimeClass_Windows_Foundation_WwwFormUrlDecoderEntry = "Windows.Foundation.WwwFormUrlDecoderEntry";
 
-        [NativeTypeName("#define CHECK_NS_PREFIX_STATE \"always\"")]
-        public static ReadOnlySpan<byte> CHECK_NS_PREFIX_STATE => new byte[] { 0x61, 0x6C, 0x77, 0x61, 0x79, 0x73, 0x00 };
-
-        [NativeTypeName("#define WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION 0x40000")]
-        public const int WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION = 0x40000;
-
-        [NativeTypeName("#define WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION 0xa0000")]
-        public const int WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION = 0xa0000;
-
         public static readonly Guid IID_IAsyncActionCompletedHandler = new Guid(0xA4ED5C81, 0x76C9, 0x40BD, 0x8B, 0xE6, 0xB1, 0xD9, 0x0F, 0xB2, 0x0A, 0xE7);
 
         public static readonly Guid IID_IDeferralCompletedHandler = new Guid(0xED32A372, 0xF3C8, 0x4FAA, 0x9C, 0xFB, 0x47, 0x01, 0x48, 0xDA, 0x38, 0x88);
