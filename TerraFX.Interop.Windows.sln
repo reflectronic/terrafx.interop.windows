@@ -1897,6 +1897,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.devices.geolocation
 		generation\winrt\windows.devices.geolocation\winrt-windows.devices.geolocation.h = generation\winrt\windows.devices.geolocation\winrt-windows.devices.geolocation.h
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.storage.fileproperties", "windows.storage.fileproperties", "{701AE0E1-9BCC-47F7-92EA-0F5FC57DDAFF}"
+	ProjectSection(SolutionItems) = preProject
+		generation\winrt\windows.storage.fileproperties\generate.rsp = generation\winrt\windows.storage.fileproperties\generate.rsp
+		generation\winrt\windows.storage.fileproperties\header.txt = generation\winrt\windows.storage.fileproperties\header.txt
+		generation\winrt\windows.storage.fileproperties\winrt-windows.storage.fileproperties.h = generation\winrt\windows.storage.fileproperties\winrt-windows.storage.fileproperties.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2196,6 +2203,7 @@ Global
 		{E0B73045-C890-4E67-9A54-15DCBABF6916} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{98A2C120-DD4D-4C55-AD52-7BD722174B82} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{638EC091-505B-4BAA-A635-5F009626D098} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
+		{701AE0E1-9BCC-47F7-92EA-0F5FC57DDAFF} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE36DF8-2D9C-4F20-8787-45DC74B57461}
