@@ -1911,6 +1911,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.storage.search", "w
 		generation\winrt\windows.storage.search\winrt-windows.storage.search.h = generation\winrt\windows.storage.search\winrt-windows.storage.search.h
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.storage", "windows.storage", "{F1B721B9-5108-45D3-89C7-18D5ABD53239}"
+	ProjectSection(SolutionItems) = preProject
+		generation\winrt\windows.storage\generate.rsp = generation\winrt\windows.storage\generate.rsp
+		generation\winrt\windows.storage\header.txt = generation\winrt\windows.storage\header.txt
+		generation\winrt\windows.storage\winrt-windows.storage.h = generation\winrt\windows.storage\winrt-windows.storage.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2212,6 +2219,7 @@ Global
 		{638EC091-505B-4BAA-A635-5F009626D098} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{701AE0E1-9BCC-47F7-92EA-0F5FC57DDAFF} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{4B2BD7BA-FF9C-4919-8070-323ADD7977B2} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
+		{F1B721B9-5108-45D3-89C7-18D5ABD53239} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE36DF8-2D9C-4F20-8787-45DC74B57461}
