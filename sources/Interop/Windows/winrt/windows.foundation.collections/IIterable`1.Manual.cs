@@ -61,7 +61,7 @@ namespace TerraFX.Interop
         [return: NativeTypeName("HRESULT")]
         public int First([NativeTypeName("IIterator<T_logical> **")] IIterator<T>** first)
         {
-            return ((delegate* unmanaged<IIterable<T>*, IIterator<T>**, int>)(lpVtbl[6]))((IIterable<T>*)Unsafe.AsPointer(ref this), current);
+            return ((delegate* unmanaged<IIterable<T>*, IIterator<T>**, int>)(lpVtbl[6]))((IIterable<T>*)Unsafe.AsPointer(ref this), first);
         }
     }
 }

@@ -111,12 +111,6 @@ namespace TerraFX.Interop
         [NativeTypeName("const WCHAR [40]")]
         public const string RuntimeClass_Windows_Devices_Input_TouchCapabilities = "Windows.Devices.Input.TouchCapabilities";
 
-        [NativeTypeName("#define WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION 0x40000")]
-        public const int WINDOWS_FOUNDATION_FOUNDATIONCONTRACT_VERSION = 0x40000;
-
-        [NativeTypeName("#define WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION 0xa0000")]
-        public const int WINDOWS_FOUNDATION_UNIVERSALAPICONTRACT_VERSION = 0xa0000;
-
         public static readonly Guid IID_IKeyboardCapabilities = new Guid(0x3A3F9B56, 0x6798, 0x4BBC, 0x83, 0x3E, 0x0F, 0x34, 0xB1, 0x7C, 0x65, 0xFF);
 
         public static readonly Guid IID_IMouseCapabilities = new Guid(0xBCA5E023, 0x7DD9, 0x4B6B, 0x9A, 0x92, 0x55, 0xD4, 0x3C, 0xB3, 0x8F, 0x73);

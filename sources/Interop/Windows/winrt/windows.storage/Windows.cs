@@ -288,9 +288,6 @@ namespace TerraFX.Interop
         [NativeTypeName("#define WINDOWS_STORAGE_PROVIDER_CLOUDFILESCONTRACT_VERSION 0x40000")]
         public const int WINDOWS_STORAGE_PROVIDER_CLOUDFILESCONTRACT_VERSION = 0x40000;
 
-        [NativeTypeName("#define WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION 0x70000")]
-        public const int WINDOWS_SYSTEM_SYSTEMMANAGEMENTCONTRACT_VERSION = 0x70000;
-
         public static readonly Guid IID_IApplicationDataSetVersionHandler = new Guid(0xA05791E6, 0xCC9F, 0x4687, 0xAC, 0xAB, 0xA3, 0x64, 0xFD, 0x78, 0x54, 0x63);
 
         public static readonly Guid IID_IStreamedFileDataRequestedHandler = new Guid(0xFEF6A824, 0x2FE1, 0x4D07, 0xA3, 0x5B, 0xB7, 0x7C, 0x50, 0xB5, 0xF4, 0xCC);
