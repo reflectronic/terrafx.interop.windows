@@ -1869,6 +1869,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsContracts", "Windows
 		generation\winrt\WindowsContracts\winrt-WindowsContracts.h = generation\winrt\WindowsContracts\winrt-WindowsContracts.h
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.ui", "windows.ui", "{B96D82D3-EEB6-45F3-A8B3-BC032C186023}"
+	ProjectSection(SolutionItems) = preProject
+		generation\winrt\windows.ui\generate.rsp = generation\winrt\windows.ui\generate.rsp
+		generation\winrt\windows.ui\header.txt = generation\winrt\windows.ui\header.txt
+		generation\winrt\windows.ui\winrt-windows.ui.h = generation\winrt\windows.ui\winrt-windows.ui.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2164,6 +2171,7 @@ Global
 		{208E6EE1-FE48-4BA6-86D2-52EA717DCC3A} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{F893999E-B50B-4C51-8262-AC1E443A46A5} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{CF2720CE-C6E7-419E-838E-093B7886BF66} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
+		{B96D82D3-EEB6-45F3-A8B3-BC032C186023} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE36DF8-2D9C-4F20-8787-45DC74B57461}
