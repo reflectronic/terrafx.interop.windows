@@ -1848,6 +1848,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "roregistrationapi", "roregi
 		generation\winrt\roregistrationapi\winrt-roregistrationapi.h = generation\winrt\roregistrationapi\winrt-roregistrationapi.h
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows.foundation.metadata", "windows.foundation.metadata", "{208E6EE1-FE48-4BA6-86D2-52EA717DCC3A}"
+	ProjectSection(SolutionItems) = preProject
+		generation\winrt\windows.foundation.metadata\generate.rsp = generation\winrt\windows.foundation.metadata\generate.rsp
+		generation\winrt\windows.foundation.metadata\header.txt = generation\winrt\windows.foundation.metadata\header.txt
+		generation\winrt\windows.foundation.metadata\winrt-windows.foundation.metadata.h = generation\winrt\windows.foundation.metadata\winrt-windows.foundation.metadata.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2140,6 +2147,7 @@ Global
 		{2D8138B2-EAC0-4E36-B3BE-AA9AE0BDB763} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{778698DA-29CB-43C7-9620-8B182A7B417C} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 		{E5637D91-83E8-4E9D-B2A3-55095FC19982} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
+		{208E6EE1-FE48-4BA6-86D2-52EA717DCC3A} = {030D5AC2-A56E-4C79-AD45-5BD6093C8D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2FE36DF8-2D9C-4F20-8787-45DC74B57461}
