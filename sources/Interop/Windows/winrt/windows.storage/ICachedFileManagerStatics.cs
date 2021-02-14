@@ -66,9 +66,9 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int CompleteUpdatesAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IStorageFile* file, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CProvider__CFileUpdateStatus_t **")] IAsyncOperation<FileUpdateStatus>** operation)
+        public int CompleteUpdatesAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IStorageFile* file, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CProvider__CFileUpdateStatus_t **")] IAsyncOperation<int>** operation)
         {
-            return ((delegate* unmanaged<ICachedFileManagerStatics*, IStorageFile*, IAsyncOperation<FileUpdateStatus>**, int>)(lpVtbl[7]))((ICachedFileManagerStatics*)Unsafe.AsPointer(ref this), file, operation);
+            return ((delegate* unmanaged<ICachedFileManagerStatics*, IStorageFile*, IAsyncOperation<int>**, int>)(lpVtbl[7]))((ICachedFileManagerStatics*)Unsafe.AsPointer(ref this), file, operation);
         }
     }
 }

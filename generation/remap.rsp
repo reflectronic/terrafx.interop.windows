@@ -37,6 +37,7 @@ dvi_adpcmwaveformat_tag=DVIADPCMWAVEFORMAT
 DWORD_PTR=nuint
 echosc1waveformat_tag=ECHOSC1WAVEFORMAT
 fmtowns_snd_waveformat_tag=FMTOWNS_SND_WAVEFORMAT
+FileUpdateStatus=int
 g721_adpcmwaveformat_tag=G721_ADPCMWAVEFORMAT
 g723_adpcmwaveformat_tag=G723_ADPCMWAVEFORMAT
 GetEnvironmentStrings():LPCH=GetEnvironmentStringsA
