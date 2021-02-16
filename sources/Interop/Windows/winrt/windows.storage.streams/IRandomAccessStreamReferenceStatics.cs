@@ -59,9 +59,9 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int CreateFromFile([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IStorageFile* file, [NativeTypeName("ABI::Windows::Storage::Streams::IRandomAccessStreamReference **")] IRandomAccessStreamReference** streamReference)
+        public int CreateFromFile([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IInspectable* file, [NativeTypeName("ABI::Windows::Storage::Streams::IRandomAccessStreamReference **")] IRandomAccessStreamReference** streamReference)
         {
-            return ((delegate* unmanaged<IRandomAccessStreamReferenceStatics*, IStorageFile*, IRandomAccessStreamReference**, int>)(lpVtbl[6]))((IRandomAccessStreamReferenceStatics*)Unsafe.AsPointer(ref this), file, streamReference);
+            return ((delegate* unmanaged<IRandomAccessStreamReferenceStatics*, IInspectable*, IRandomAccessStreamReference**, int>)(lpVtbl[6]))((IRandomAccessStreamReferenceStatics*)Unsafe.AsPointer(ref this), file, streamReference);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

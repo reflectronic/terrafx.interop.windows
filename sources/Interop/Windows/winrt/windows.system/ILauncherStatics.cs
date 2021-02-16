@@ -59,16 +59,16 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int LaunchFileAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IStorageFile* file, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_boolean_t **")] IAsyncOperation<byte>** operation)
+        public int LaunchFileAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IInspectable* file, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_boolean_t **")] IAsyncOperation<byte>** operation)
         {
-            return ((delegate* unmanaged<ILauncherStatics*, IStorageFile*, IAsyncOperation<byte>**, int>)(lpVtbl[6]))((ILauncherStatics*)Unsafe.AsPointer(ref this), file, operation);
+            return ((delegate* unmanaged<ILauncherStatics*, IInspectable*, IAsyncOperation<byte>**, int>)(lpVtbl[6]))((ILauncherStatics*)Unsafe.AsPointer(ref this), file, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int LaunchFileWithOptionsAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IStorageFile* file, [NativeTypeName("ABI::Windows::System::ILauncherOptions *")] ILauncherOptions* options, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_boolean_t **")] IAsyncOperation<byte>** operation)
+        public int LaunchFileWithOptionsAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IInspectable* file, [NativeTypeName("ABI::Windows::System::ILauncherOptions *")] ILauncherOptions* options, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_boolean_t **")] IAsyncOperation<byte>** operation)
         {
-            return ((delegate* unmanaged<ILauncherStatics*, IStorageFile*, ILauncherOptions*, IAsyncOperation<byte>**, int>)(lpVtbl[7]))((ILauncherStatics*)Unsafe.AsPointer(ref this), file, options, operation);
+            return ((delegate* unmanaged<ILauncherStatics*, IInspectable*, ILauncherOptions*, IAsyncOperation<byte>**, int>)(lpVtbl[7]))((ILauncherStatics*)Unsafe.AsPointer(ref this), file, options, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

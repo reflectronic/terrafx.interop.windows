@@ -94,16 +94,16 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int QueryFileSupportAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IStorageFile* file, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CSystem__CLaunchQuerySupportStatus_t **")] IAsyncOperation<LaunchQuerySupportStatus>** operation)
+        public int QueryFileSupportAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IInspectable* file, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CSystem__CLaunchQuerySupportStatus_t **")] IAsyncOperation<LaunchQuerySupportStatus>** operation)
         {
-            return ((delegate* unmanaged<ILauncherStatics2*, IStorageFile*, IAsyncOperation<LaunchQuerySupportStatus>**, int>)(lpVtbl[11]))((ILauncherStatics2*)Unsafe.AsPointer(ref this), file, operation);
+            return ((delegate* unmanaged<ILauncherStatics2*, IInspectable*, IAsyncOperation<LaunchQuerySupportStatus>**, int>)(lpVtbl[11]))((ILauncherStatics2*)Unsafe.AsPointer(ref this), file, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int QueryFileSupportWithPackageFamilyNameAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IStorageFile* file, [NativeTypeName("HSTRING")] IntPtr packageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CSystem__CLaunchQuerySupportStatus_t **")] IAsyncOperation<LaunchQuerySupportStatus>** operation)
+        public int QueryFileSupportWithPackageFamilyNameAsync([NativeTypeName("ABI::Windows::Storage::IStorageFile *")] IInspectable* file, [NativeTypeName("HSTRING")] IntPtr packageFamilyName, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CSystem__CLaunchQuerySupportStatus_t **")] IAsyncOperation<LaunchQuerySupportStatus>** operation)
         {
-            return ((delegate* unmanaged<ILauncherStatics2*, IStorageFile*, IntPtr, IAsyncOperation<LaunchQuerySupportStatus>**, int>)(lpVtbl[12]))((ILauncherStatics2*)Unsafe.AsPointer(ref this), file, packageFamilyName, operation);
+            return ((delegate* unmanaged<ILauncherStatics2*, IInspectable*, IntPtr, IAsyncOperation<LaunchQuerySupportStatus>**, int>)(lpVtbl[12]))((ILauncherStatics2*)Unsafe.AsPointer(ref this), file, packageFamilyName, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

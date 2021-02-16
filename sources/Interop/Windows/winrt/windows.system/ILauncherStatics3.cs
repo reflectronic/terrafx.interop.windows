@@ -59,16 +59,16 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int LaunchFolderAsync([NativeTypeName("ABI::Windows::Storage::IStorageFolder *")] IStorageFolder* folder, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_boolean_t **")] IAsyncOperation<byte>** operation)
+        public int LaunchFolderAsync([NativeTypeName("ABI::Windows::Storage::IStorageFolder *")] IInspectable* folder, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_boolean_t **")] IAsyncOperation<byte>** operation)
         {
-            return ((delegate* unmanaged<ILauncherStatics3*, IStorageFolder*, IAsyncOperation<byte>**, int>)(lpVtbl[6]))((ILauncherStatics3*)Unsafe.AsPointer(ref this), folder, operation);
+            return ((delegate* unmanaged<ILauncherStatics3*, IInspectable*, IAsyncOperation<byte>**, int>)(lpVtbl[6]))((ILauncherStatics3*)Unsafe.AsPointer(ref this), folder, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int LaunchFolderWithOptionsAsync([NativeTypeName("ABI::Windows::Storage::IStorageFolder *")] IStorageFolder* folder, [NativeTypeName("ABI::Windows::System::IFolderLauncherOptions *")] IFolderLauncherOptions* options, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_boolean_t **")] IAsyncOperation<byte>** operation)
+        public int LaunchFolderWithOptionsAsync([NativeTypeName("ABI::Windows::Storage::IStorageFolder *")] IInspectable* folder, [NativeTypeName("ABI::Windows::System::IFolderLauncherOptions *")] IFolderLauncherOptions* options, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_boolean_t **")] IAsyncOperation<byte>** operation)
         {
-            return ((delegate* unmanaged<ILauncherStatics3*, IStorageFolder*, IFolderLauncherOptions*, IAsyncOperation<byte>**, int>)(lpVtbl[7]))((ILauncherStatics3*)Unsafe.AsPointer(ref this), folder, options, operation);
+            return ((delegate* unmanaged<ILauncherStatics3*, IInspectable*, IFolderLauncherOptions*, IAsyncOperation<byte>**, int>)(lpVtbl[7]))((ILauncherStatics3*)Unsafe.AsPointer(ref this), folder, options, operation);
         }
     }
 }
