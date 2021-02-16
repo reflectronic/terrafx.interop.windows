@@ -73,16 +73,16 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int get_NeighboringFilesQuery([NativeTypeName("ABI::Windows::Storage::Search::IStorageFileQueryResult **")] IStorageFileQueryResult** value)
+        public int get_NeighboringFilesQuery([NativeTypeName("ABI::Windows::Storage::Search::IStorageFileQueryResult **")] IInspectable** value)
         {
-            return ((delegate* unmanaged<ILauncherOptions2*, IStorageFileQueryResult**, int>)(lpVtbl[8]))((ILauncherOptions2*)Unsafe.AsPointer(ref this), value);
+            return ((delegate* unmanaged<ILauncherOptions2*, IInspectable**, int>)(lpVtbl[8]))((ILauncherOptions2*)Unsafe.AsPointer(ref this), value);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int put_NeighboringFilesQuery([NativeTypeName("ABI::Windows::Storage::Search::IStorageFileQueryResult *")] IStorageFileQueryResult* value)
+        public int put_NeighboringFilesQuery([NativeTypeName("ABI::Windows::Storage::Search::IStorageFileQueryResult *")] IInspectable* value)
         {
-            return ((delegate* unmanaged<ILauncherOptions2*, IStorageFileQueryResult*, int>)(lpVtbl[9]))((ILauncherOptions2*)Unsafe.AsPointer(ref this), value);
+            return ((delegate* unmanaged<ILauncherOptions2*, IInspectable*, int>)(lpVtbl[9]))((ILauncherOptions2*)Unsafe.AsPointer(ref this), value);
         }
     }
 }

@@ -542,6 +542,7 @@ IRemoteSystemConnectionRequest=IInspectable
 IRunningObjectTable.GetObjectW=GetObject
 ISpResourceManager.GetObjectW=GetObject
 ISpeechObjectToken.RemoveStorageFileName.DeleteFileW=DeleteFile
+IStorageFileQueryResult=IInspectable
 IStorageItemContentProperties=IInspectable
 ISuspendingEventArgs=IInspectable
 IUri.GetUserNameW=GetUserName
