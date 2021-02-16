@@ -59,9 +59,9 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int CreateOnDedicatedThread([NativeTypeName("ABI::Windows::System::IDispatcherQueueController **")] void** result)
+        public int CreateOnDedicatedThread([NativeTypeName("ABI::Windows::System::IDispatcherQueueController **")] IDispatcherQueueController** result)
         {
-            return ((delegate* unmanaged<IDispatcherQueueControllerStatics*, void**, int>)(lpVtbl[6]))((IDispatcherQueueControllerStatics*)Unsafe.AsPointer(ref this), result);
+            return ((delegate* unmanaged<IDispatcherQueueControllerStatics*, IDispatcherQueueController**, int>)(lpVtbl[6]))((IDispatcherQueueControllerStatics*)Unsafe.AsPointer(ref this), result);
         }
     }
 }
