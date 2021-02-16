@@ -57,3 +57,5 @@ winrt-windows.storage.streams.h
 ../../../tests/Interop/Windows/winrt/windows.storage.streams
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/winrt/windows.storage.streams.h
+--with-attribute
+InputStreamOptions=Flags

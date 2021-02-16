@@ -105,3 +105,6 @@ winrt-windows.ui.core.h
 ../../../tests/Interop/Windows/winrt/windows.ui.core
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/winrt/windows.ui.core.h
+--with-attribute
+CoreInputDeviceTypes=Flags
+CoreVirtualKeyStates=Flags

@@ -32,3 +32,5 @@ winrt-windows.ui.popups.h
 ../../../tests/Interop/Windows/winrt/windows.ui.popups
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/winrt/windows.ui.popups.h
+--with-attribute
+MessageDialogOptions=Flags

@@ -124,3 +124,5 @@ winrt-windows.ui.input.h
 ../../../tests/Interop/Windows/winrt/windows.ui.input
 --traverse
 C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/winrt/windows.ui.input.h
+--with-attribute
+GestureSettings=Flags
