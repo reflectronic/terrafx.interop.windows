@@ -66,9 +66,9 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int OpenWithOptionsAsync([NativeTypeName("HSTRING")] IntPtr filePath, [NativeTypeName("ABI::Windows::Storage::FileAccessMode")] int accessMode, [NativeTypeName("ABI::Windows::Storage::StorageOpenOptions")] StorageOpenOptions sharingOptions, [NativeTypeName("ABI::Windows::Storage::Streams::FileOpenDisposition")] FileOpenDisposition openDisposition, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CStreams__CIRandomAccessStream_t **")] IAsyncOperation<IntPtr>** operation)
+        public int OpenWithOptionsAsync([NativeTypeName("HSTRING")] IntPtr filePath, [NativeTypeName("ABI::Windows::Storage::FileAccessMode")] int accessMode, [NativeTypeName("ABI::Windows::Storage::StorageOpenOptions")] uint sharingOptions, [NativeTypeName("ABI::Windows::Storage::Streams::FileOpenDisposition")] FileOpenDisposition openDisposition, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CStreams__CIRandomAccessStream_t **")] IAsyncOperation<IntPtr>** operation)
         {
-            return ((delegate* unmanaged<IFileRandomAccessStreamStatics*, IntPtr, int, StorageOpenOptions, FileOpenDisposition, IAsyncOperation<IntPtr>**, int>)(lpVtbl[7]))((IFileRandomAccessStreamStatics*)Unsafe.AsPointer(ref this), filePath, accessMode, sharingOptions, openDisposition, operation);
+            return ((delegate* unmanaged<IFileRandomAccessStreamStatics*, IntPtr, int, uint, FileOpenDisposition, IAsyncOperation<IntPtr>**, int>)(lpVtbl[7]))((IFileRandomAccessStreamStatics*)Unsafe.AsPointer(ref this), filePath, accessMode, sharingOptions, openDisposition, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -80,9 +80,9 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int OpenTransactedWriteWithOptionsAsync([NativeTypeName("HSTRING")] IntPtr filePath, [NativeTypeName("ABI::Windows::Storage::StorageOpenOptions")] StorageOpenOptions openOptions, [NativeTypeName("ABI::Windows::Storage::Streams::FileOpenDisposition")] FileOpenDisposition openDisposition, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CStorageStreamTransaction_t **")] IAsyncOperation<IntPtr>** operation)
+        public int OpenTransactedWriteWithOptionsAsync([NativeTypeName("HSTRING")] IntPtr filePath, [NativeTypeName("ABI::Windows::Storage::StorageOpenOptions")] uint openOptions, [NativeTypeName("ABI::Windows::Storage::Streams::FileOpenDisposition")] FileOpenDisposition openDisposition, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CStorageStreamTransaction_t **")] IAsyncOperation<IntPtr>** operation)
         {
-            return ((delegate* unmanaged<IFileRandomAccessStreamStatics*, IntPtr, StorageOpenOptions, FileOpenDisposition, IAsyncOperation<IntPtr>**, int>)(lpVtbl[9]))((IFileRandomAccessStreamStatics*)Unsafe.AsPointer(ref this), filePath, openOptions, openDisposition, operation);
+            return ((delegate* unmanaged<IFileRandomAccessStreamStatics*, IntPtr, uint, FileOpenDisposition, IAsyncOperation<IntPtr>**, int>)(lpVtbl[9]))((IFileRandomAccessStreamStatics*)Unsafe.AsPointer(ref this), filePath, openOptions, openDisposition, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -94,9 +94,9 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int OpenForUserWithOptionsAsync([NativeTypeName("ABI::Windows::System::IUser *")] IUser* user, [NativeTypeName("HSTRING")] IntPtr filePath, [NativeTypeName("ABI::Windows::Storage::FileAccessMode")] int accessMode, [NativeTypeName("ABI::Windows::Storage::StorageOpenOptions")] StorageOpenOptions sharingOptions, [NativeTypeName("ABI::Windows::Storage::Streams::FileOpenDisposition")] FileOpenDisposition openDisposition, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CStreams__CIRandomAccessStream_t **")] IAsyncOperation<IntPtr>** operation)
+        public int OpenForUserWithOptionsAsync([NativeTypeName("ABI::Windows::System::IUser *")] IUser* user, [NativeTypeName("HSTRING")] IntPtr filePath, [NativeTypeName("ABI::Windows::Storage::FileAccessMode")] int accessMode, [NativeTypeName("ABI::Windows::Storage::StorageOpenOptions")] uint sharingOptions, [NativeTypeName("ABI::Windows::Storage::Streams::FileOpenDisposition")] FileOpenDisposition openDisposition, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CStreams__CIRandomAccessStream_t **")] IAsyncOperation<IntPtr>** operation)
         {
-            return ((delegate* unmanaged<IFileRandomAccessStreamStatics*, IUser*, IntPtr, int, StorageOpenOptions, FileOpenDisposition, IAsyncOperation<IntPtr>**, int>)(lpVtbl[11]))((IFileRandomAccessStreamStatics*)Unsafe.AsPointer(ref this), user, filePath, accessMode, sharingOptions, openDisposition, operation);
+            return ((delegate* unmanaged<IFileRandomAccessStreamStatics*, IUser*, IntPtr, int, uint, FileOpenDisposition, IAsyncOperation<IntPtr>**, int>)(lpVtbl[11]))((IFileRandomAccessStreamStatics*)Unsafe.AsPointer(ref this), user, filePath, accessMode, sharingOptions, openDisposition, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -108,9 +108,9 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int OpenTransactedWriteForUserWithOptionsAsync([NativeTypeName("ABI::Windows::System::IUser *")] IUser* user, [NativeTypeName("HSTRING")] IntPtr filePath, [NativeTypeName("ABI::Windows::Storage::StorageOpenOptions")] StorageOpenOptions openOptions, [NativeTypeName("ABI::Windows::Storage::Streams::FileOpenDisposition")] FileOpenDisposition openDisposition, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CStorageStreamTransaction_t **")] IAsyncOperation<IntPtr>** operation)
+        public int OpenTransactedWriteForUserWithOptionsAsync([NativeTypeName("ABI::Windows::System::IUser *")] IUser* user, [NativeTypeName("HSTRING")] IntPtr filePath, [NativeTypeName("ABI::Windows::Storage::StorageOpenOptions")] uint openOptions, [NativeTypeName("ABI::Windows::Storage::Streams::FileOpenDisposition")] FileOpenDisposition openDisposition, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CStorageStreamTransaction_t **")] IAsyncOperation<IntPtr>** operation)
         {
-            return ((delegate* unmanaged<IFileRandomAccessStreamStatics*, IUser*, IntPtr, StorageOpenOptions, FileOpenDisposition, IAsyncOperation<IntPtr>**, int>)(lpVtbl[13]))((IFileRandomAccessStreamStatics*)Unsafe.AsPointer(ref this), user, filePath, openOptions, openDisposition, operation);
+            return ((delegate* unmanaged<IFileRandomAccessStreamStatics*, IUser*, IntPtr, uint, FileOpenDisposition, IAsyncOperation<IntPtr>**, int>)(lpVtbl[13]))((IFileRandomAccessStreamStatics*)Unsafe.AsPointer(ref this), user, filePath, openOptions, openDisposition, operation);
         }
     }
 }
