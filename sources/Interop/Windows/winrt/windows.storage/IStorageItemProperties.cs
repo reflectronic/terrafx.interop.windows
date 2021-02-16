@@ -59,23 +59,23 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int GetThumbnailAsyncOverloadDefaultSizeDefaultOptions([NativeTypeName("ABI::Windows::Storage::FileProperties::ThumbnailMode")] ThumbnailMode mode, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CFileProperties__CStorageItemThumbnail_t **")] IAsyncOperation<IntPtr>** operation)
+        public int GetThumbnailAsyncOverloadDefaultSizeDefaultOptions([NativeTypeName("ABI::Windows::Storage::FileProperties::ThumbnailMode")] int mode, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CFileProperties__CStorageItemThumbnail_t **")] IAsyncOperation<IntPtr>** operation)
         {
-            return ((delegate* unmanaged<IStorageItemProperties*, ThumbnailMode, IAsyncOperation<IntPtr>**, int>)(lpVtbl[6]))((IStorageItemProperties*)Unsafe.AsPointer(ref this), mode, operation);
+            return ((delegate* unmanaged<IStorageItemProperties*, int, IAsyncOperation<IntPtr>**, int>)(lpVtbl[6]))((IStorageItemProperties*)Unsafe.AsPointer(ref this), mode, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int GetThumbnailAsyncOverloadDefaultOptions([NativeTypeName("ABI::Windows::Storage::FileProperties::ThumbnailMode")] ThumbnailMode mode, [NativeTypeName("UINT32")] uint requestedSize, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CFileProperties__CStorageItemThumbnail_t **")] IAsyncOperation<IntPtr>** operation)
+        public int GetThumbnailAsyncOverloadDefaultOptions([NativeTypeName("ABI::Windows::Storage::FileProperties::ThumbnailMode")] int mode, [NativeTypeName("UINT32")] uint requestedSize, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CFileProperties__CStorageItemThumbnail_t **")] IAsyncOperation<IntPtr>** operation)
         {
-            return ((delegate* unmanaged<IStorageItemProperties*, ThumbnailMode, uint, IAsyncOperation<IntPtr>**, int>)(lpVtbl[7]))((IStorageItemProperties*)Unsafe.AsPointer(ref this), mode, requestedSize, operation);
+            return ((delegate* unmanaged<IStorageItemProperties*, int, uint, IAsyncOperation<IntPtr>**, int>)(lpVtbl[7]))((IStorageItemProperties*)Unsafe.AsPointer(ref this), mode, requestedSize, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int GetThumbnailAsync([NativeTypeName("ABI::Windows::Storage::FileProperties::ThumbnailMode")] ThumbnailMode mode, [NativeTypeName("UINT32")] uint requestedSize, [NativeTypeName("ABI::Windows::Storage::FileProperties::ThumbnailOptions")] ThumbnailOptions options, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CFileProperties__CStorageItemThumbnail_t **")] IAsyncOperation<IntPtr>** operation)
+        public int GetThumbnailAsync([NativeTypeName("ABI::Windows::Storage::FileProperties::ThumbnailMode")] int mode, [NativeTypeName("UINT32")] uint requestedSize, [NativeTypeName("ABI::Windows::Storage::FileProperties::ThumbnailOptions")] uint options, [NativeTypeName("ABI::Windows::Foundation::__FIAsyncOperation_1_Windows__CStorage__CFileProperties__CStorageItemThumbnail_t **")] IAsyncOperation<IntPtr>** operation)
         {
-            return ((delegate* unmanaged<IStorageItemProperties*, ThumbnailMode, uint, ThumbnailOptions, IAsyncOperation<IntPtr>**, int>)(lpVtbl[8]))((IStorageItemProperties*)Unsafe.AsPointer(ref this), mode, requestedSize, options, operation);
+            return ((delegate* unmanaged<IStorageItemProperties*, int, uint, uint, IAsyncOperation<IntPtr>**, int>)(lpVtbl[8]))((IStorageItemProperties*)Unsafe.AsPointer(ref this), mode, requestedSize, options, operation);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -101,9 +101,9 @@ namespace TerraFX.Interop
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [return: NativeTypeName("HRESULT")]
-        public int get_Properties([NativeTypeName("ABI::Windows::Storage::FileProperties::IStorageItemContentProperties **")] IStorageItemContentProperties** value)
+        public int get_Properties([NativeTypeName("ABI::Windows::Storage::FileProperties::IStorageItemContentProperties **")] IInspectable** value)
         {
-            return ((delegate* unmanaged<IStorageItemProperties*, IStorageItemContentProperties**, int>)(lpVtbl[12]))((IStorageItemProperties*)Unsafe.AsPointer(ref this), value);
+            return ((delegate* unmanaged<IStorageItemProperties*, IInspectable**, int>)(lpVtbl[12]))((IStorageItemProperties*)Unsafe.AsPointer(ref this), value);
         }
     }
 }
